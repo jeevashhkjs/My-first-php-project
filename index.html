@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="./index.php" method="post">
+            <label>Name</label>
+            <input type="text" name="fname" id="fname" class="fname">
+            <label>Last Name</label>
+            <input type="text" name="lname" id="lname" class="lname">
+            <label>Email</label>
+            <input type="emial" name="mail" id="mail" class="mail">
+            <label>Website</label>
+            <input type="text" name="web" id="web" class="web">
+            <label>Address</label>
+            <textarea name="address"></textarea>
+            <label>Gender</label>
+            <input type="radio" name="gender" id="gender" class="gender" value="male">Male
+            <input type="radio" name="gender" id="gender" class="gender" value="female">Female
+            <input type="radio" name="gender" id="gender" class="gender" value="transgender">Transgender
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
